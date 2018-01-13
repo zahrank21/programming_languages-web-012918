@@ -12,6 +12,7 @@ def reformat_languages(languages)
 
   if lang2 == :javascript
     new_hash[lang2][:style] == [:oo, :functional]
+  end
 
   end
 
