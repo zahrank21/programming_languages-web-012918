@@ -10,9 +10,7 @@ def reformat_languages(languages)
     new_hash[lang2][:style] << style
   end
 
-  if lang2 == :javascript
-    new_hash[lang2][:style] == [:oo, :functional]
-  end
+  new_hash[:javascript][:style] = [:oo, :functional]
 
   end
 
